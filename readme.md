@@ -1,9 +1,9 @@
-# Searcher
+# Filter
 
 Call plugin on the input element and pass jQuery objects to the settings
 
 ```Javascript
-$('#search').searcher({
+$('#filter').filter({
   'container' : $('ul'), 
   'item'      : $('li'),
   'text'      : $('a')
